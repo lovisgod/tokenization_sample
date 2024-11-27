@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android="http://schemas.android.com/apk/res/android"
+    android:apduServiceBanner="@drawable/ic_launcher_background_new"
+    android:description="@string/servicedesc">
+    <aid-group android:category="payment" android:description="@string/aiddescription">
+        <!-- MasterCard AIDs -->
+<!--        <aid-filter android:name="A0000000041010" /> &lt;!&ndash; MasterCard Credit/Debit &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000043060" /> &lt;!&ndash; MasterCard Maestro &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000046000" /> &lt;!&ndash; MasterCard Cirrus &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Visa AIDs &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000031010" /> &lt;!&ndash; Visa Credit/Debit &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000032010" /> &lt;!&ndash; Visa Electron &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000033010" /> &lt;!&ndash; Visa Interlink &ndash;&gt;-->
+<!--        <aid-filter android:name="A0000000038010" /> &lt;!&ndash; Visa Plus &ndash;&gt;-->
+
+        <!-- select PPSE 2PAY.SYS.DDF01 -->
+        <aid-filter android:name="325041592E5359532E4444463031"/>
+        <!-- Verve AID -->
+        <aid-filter android:name="A0000003710001" /> <!-- Verve -->
+    </aid-group>
+</host-apdu-service>
