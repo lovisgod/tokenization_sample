@@ -18,6 +18,9 @@
 
         <!-- select PPSE 2PAY.SYS.DDF01 -->
         <aid-filter android:name="325041592E5359532E4444463031"/>
+
+        <!-- Payble AID  private RID: D2760001 PAYB 50 41 59 42 -->
+        <aid-filter android:name="D276000150415942"/>
         <!-- Verve AID -->
         <aid-filter android:name="A0000003710001" /> <!-- Verve -->
     </aid-group>
